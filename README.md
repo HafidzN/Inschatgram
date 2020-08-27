@@ -1,6 +1,6 @@
 # INSCHATGRAM
 
-Inschatgram is a web app which let you share photos and your beloved moments with friend. It is made by using React Js and proposed as a clone for [instagram.com](instagram.com)
+Inschatgram is a web app which let you share photos and your beloved moments with friend. It is made by using React Js + Context API and proposed as a clone for [instagram.com](instagram.com)
 
 
 ## Features
