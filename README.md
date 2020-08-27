@@ -11,6 +11,7 @@ Inschatgram is a web app which let you share photos and your beloved moments wit
 * Remove story
 * View followed user's story
 * Create new feed
+* Crop image
 * Delete feed
 * Like image
 * Unlike image
