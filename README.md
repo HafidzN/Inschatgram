@@ -1,68 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# INSCHATGRAM
 
-## Available Scripts
+Inschatgram is a web app which let you share photos and your beloved moments with friend. It is made by using React Js and proposed as a clone for [instagram.com](instagram.com)
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
+* Sign up
+* Login
+* Logout
+* Add story
+* Remove story
+* View followed user's story
+* Create new feed
+* Delete feed
+* Like image
+* Unlike image
+* Comment
+* Delete comment
+* Save image
+* Explore 
+* Search users
+* Follow user
+* Unfollow user
+* View user's followed
+* View user's following
+* View user's feed
+* Flip saved images
+* Edit profile details
+* Update profile photo
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Screenshots
+![Followed Story](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598514830/story-2_svjcl9.png)
+![Add New Feed](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598514808/new-post_sdlsxb.png)
+![Home Screen](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598514810/feed-1_ggyjna.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Explore-Modal](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598514819/explore-2_u9nykw.png)
+![Explore](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598514815/explore_qsm8dt.png)
+![Save Post](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598514802/post_ffpile.png)
 
-### `npm run build`
+![Add Story](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598517941/add-story-2_lhzjtg.png)
+![Comments](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598518469/comment_we5ett.png)
+![Search](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598518671/search_sk49z3.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![User's Following Info](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598518961/user-profile-2_mzosyk.png)
+![User's Feed](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598518964/user-profile_wuzxot.png)
+![Saved Items](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598519524/saved_wpplsy.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Edit Profile](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598519297/edit-profile_gafudt.png)
+![Story Modal](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598519882/story_riophm.png)
+![Feed Modal](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598520171/Feed_Modal_y6byt0.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Post Modal](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598520342/Post_Modal_icbk01.png)
+![Logout](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598520820/Logout_q13ckv.png)
+![Sign Up](https://res.cloudinary.com/smilj4npj4nic/image/upload/v1598522108/signIn_bnowtg.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Build Setup
+* Make sure you have run the server [Inschatgram-Server](https://github.com/HafidzN/INSCHATGRAM-Server.git)
+* Clone repository `https://github.com/HafidzN/Inschatgram.git`
+* Run the development server 
+  `npm start`
+  then open up `localhost:3000`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Copyright © 2020 by Hafidz Nugroho
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
