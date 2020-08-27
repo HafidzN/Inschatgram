@@ -1,0 +1,45 @@
+.create-story-container{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.create-story-container .story-image{
+    object-fit: cover;
+    max-width: 60rem;
+    margin: 5rem auto 0;
+}
+
+.create-story-container .X{
+    top: 4rem;
+    position: absolute;
+    width: 7rem;
+    height: 8rem;    
+}
+
+.create-story-button-container{
+    position: absolute;
+    left: 50%;
+    bottom: 3rem;
+    font-size: 1.8rem;
+    color: #edeceb;
+    transform: translateX(-50%);    
+}
+
+.heighed{
+    height: 10rem !important;
+}
+
+.discard-alert{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;    
+}
+
+.discard-explanation{
+    color: #adadad;
+    font-size: 1.3rem;
+}
+
+.arr{
+    font-size: 1.4rem;
+}

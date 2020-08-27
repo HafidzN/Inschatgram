@@ -1,0 +1,126 @@
+.carousel-container{
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    height: 8rem;
+    background: #fff;
+}
+
+.status-item {
+    width: 5.4rem;
+    height: 5.4rem;
+    /* background: #d6249f; */
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    /* background: linear-gradient(to right top, #fcac0f, #fd9522, #fa7f30, #f36a3c, #e85647, #e44751, #dd395b, #d42d65, #d12174, #ca1b85, #be1e96, #ae27a8); */
+    /* background:linear-gradient(to right top, #fcac0f, #fd9522, #fa7f30, #f36a3c, #e85647, #e44751, #dd395b, #d42d65, #d12174, #ca1b85, #be1e96, #ae27a8); */
+}
+
+.no-status {
+    background: #fff;
+}
+
+.img-status {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-Block;
+    width: 4.9rem;
+    height: 4.9rem;
+    border-radius: 50%;
+    margin: auto 0;
+    border: 2.7px solid #fff; 
+    object-fit: cover;
+}
+
+.add-status-button{
+    display: inline-block;
+    background: rgb(56, 151, 240);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: relative;
+    top: -2.1rem;
+    left: 63%;
+    z-index: 10;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    border:2px solid #fff; 
+}
+
+.add-status-button span{
+        position: relative;
+        top: -.64rem;
+        left: .2rem;
+}
+
+
+
+.status-modal-wrapper {
+        width  : 100%;
+        height : 53rem;
+        padding-left: 0rem;
+}
+
+.status-modal-profile-image{
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;
+
+}
+
+.user-detail-container{
+        width:100%;
+        height:5rem;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 3rem;    
+}
+
+.user-detail-container .image-wrapper{
+        width:5rem;
+        height:5rem;
+        margin-left: 1rem;
+        border-radius:50%;
+        border:4px solid #ececec;  
+}
+
+.user-detail-container .image-wrapper img{
+        width:calc(5rem - 6px);
+        height:calc(5rem - 6px);
+        border-radius:50%;
+        position: relative;
+        top: 50%;
+        left:50%;
+        transform:translate(-50%,-50%); 
+        object-fit: cover;
+}
+
+.user-detail-container .status-details {
+        flex: 1;
+        padding-left:1rem;
+        font-weight: 400;
+        color:white; 
+}
+
+
+
+.delete-post-container{
+        position: absolute;
+        top: 49.5rem;
+        height: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 2rem;
+        font-size: 1.4rem;
+        color: #ececec;    
+}
+
+@media (min-width: 450px){
+        .carousel-container{
+                max-width: 60%;
+        }
+}
+

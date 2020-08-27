@@ -1,0 +1,149 @@
+.page{
+    height: 100vh;
+    display: flex;
+    padding-top: 3rem;
+    justify-content: center;
+}
+
+.create-post-container{
+    height: 50%;
+    width: 100%;
+    border-radius: .3rem;
+    /* background-color: #fff; */
+    background-image: url('../assets/camera.png');
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+
+.img-holder{
+    margin: auto;
+    width: 100%;
+    min-height: 37.5rem;
+    margin-top: 2rem;
+    /* border-top: 1px solid #ececec; */
+    border-bottom: 1px solid #ececec;
+
+    background-color: white;
+    background-image: url('../assets/camera.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img{
+    width: 100%;
+    height: 37.3rem;
+    object-fit: cover;
+}
+
+#input[type='file']{
+    display: none;
+}
+
+.label{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image-upload{
+    margin: auto;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: rgba(0,0,0,.43);
+    color: white;
+    border-radius: 2.4rem;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -2.6rem;
+    right: -13.7rem;
+    margin-bottom: -9rem;
+    z-index: 500;
+    font-size: 1.6rem;
+}
+
+
+.new-status-button {
+    position: absolute;
+    top: 6rem;
+    right: 0rem;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+    border-radius: .8rem;
+    padding: .2rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    background: rgb(56, 151, 240);
+    font-weight: 700;  
+}
+
+.reminder {
+    text-align: center;
+    position: relative;
+    top: 32.9rem;
+    font-size: 1.4rem;
+    padding: 2rem;
+    font-weight: bolder;
+    border: 1px solid #ececec;
+}
+
+.post-errors{
+    display: block;
+    outline: none;
+    padding: .8rem;
+    color: #ff0202;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    height: 3.5rem;
+    text-align: center;
+    margin: 2rem;
+    border-radius: .8rem;
+    border: .1rem solid #ff0202;
+}
+
+
+.new-post-wrapper{
+        width:100%;
+        height:7.5rem;
+        display: flex;
+        flex-direction: row;
+        margin-top:-.3rem;  
+}
+
+.new-post-wrapper .textarea{
+        flex: 1;
+        background:lightBlue; 
+}
+
+.new-post-wrapper .textarea textarea{
+           width: 100%;
+           padding: 1.5rem .5rem 0;
+           background:#fafafa;
+           border: none !important
+}
+
+.new-post-component{
+        width:6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+}
+
+.new-post-component .profile-pic{
+        object-fit: cover;
+        width:5rem;
+        height: 5rem;
+        border-radius: 50%;  
+}
+
+img .cropped-pic{
+    width: 100%    
+}

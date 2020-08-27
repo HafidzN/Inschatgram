@@ -1,0 +1,101 @@
+.explore-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem ;
+}
+
+.inprofile{
+    margin-top: 0
+}
+
+.square {
+    float:left;
+    position: relative;
+    /* width: 33.33333%;
+    padding-bottom : 33.33333%; */
+     /* = width for a 1:1 aspect ratio */
+    /* margin:1.66%; */
+    width: 32.78333%;
+    padding-bottom: 32.78333%;
+    margin: 0.4125025% 0;
+    background-color:#1E1E1E;
+    overflow:hidden;
+    outline: auto;
+}
+
+.square1 {
+    float:left;
+    position: relative;
+    width: 32.7778%;
+    padding-bottom: 32.7778%;
+    margin: 0.4167% 0;
+    background-color:#ececec;
+    overflow:hidden;
+}
+
+.square:nth-child(3){
+    margin-top: 0%;
+}
+.square:nth-child(1){
+    margin-top: 0%;
+}
+.square:nth-child(2){
+    margin-top: 0%;
+}
+
+.square:nth-child(3n+2){
+    margin-left: 0.825005%;
+    margin-right: 0.825005%;
+}
+
+
+
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    
+}
+
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+/*  For responsive images as background */
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
+.img1{
+    background-image: url('https://i.pinimg.com/236x/cd/b7/44/cdb74470ad2a8a28118ef7f280ed2677.jpg');
+}
+.img2{
+    background-image: url('https://farm7.staticflickr.com/6217/6216951796_e50778255c.jpg');
+}
+.img3{
+    background-image: url('https://farm4.staticflickr.com/3794/13893055574_3df0ab636b.jpg');
+}
+
+/*  following just for the demo */
+
+/* 
+body {
+    font-size:20px;
+    font-family: 'Lato',verdana, sans-serif;
+    color: #fff;
+    background:#ECECEC;
+} */
+
+.numbers{
+    font-weight:900;
+    font-size:100px;
+}
